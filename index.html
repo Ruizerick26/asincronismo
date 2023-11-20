@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset = "UTF-8">
+    <meta meta="viewsport" content="width = device = width, initial-scale=1.0">
+    <title>DOM</title> 
+</head>
+    <body>
+        <h1>Bienvenidos a mi pagina web</h1>
+        <p>El producto de la API del backend</p>
+        <ul>
+            <li>Cargando...</li>
+        </ul>
+        <script>
+            //Programacion imperativa es programar indicando que debe realizar el programa
+            alert("Solicitando una llamada a una API")
+            document.querySelector('li').textContent="Play Station" 
+            setTimeout(() =>{
+                document.querySelector('li').textContent = "Encebollado"
+            },2000)
+        </script>
+    </body>
+
+</html>
+
